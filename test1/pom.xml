@@ -9,7 +9,7 @@
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-servlet-api</artifactId>
-			<version>9.0.16</version>
+			<version>9.0.62</version>
 		</dependency>
 
 	</dependencies>
@@ -25,9 +25,9 @@
 					<configuration>
 						<server>github</server>
 						<path>/${project.build.finalName}</path>
-						<url>${my.url}</url>
-						<username>${my.username}</username>
-						<password>${my.password}</password>
+						<url>${mvn_project.url}</url>
+						<username>${mvn_project.username}</username>
+						<password>${mvn_project.password}</password>
 						<update>true</update>
 					</configuration>
 				</plugin>
